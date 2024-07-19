@@ -1,0 +1,159 @@
+/* #region body */
+body {
+    width: 100%;
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+/*#endregion */
+/* #region header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    padding-bottom: 5px;
+}
+
+.header__first {
+    display: flex;
+    margin: 5px;    
+}
+
+.header__football {
+    margin-top: 0;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.header__right {
+    display: flex;
+}
+
+.header__right-text {
+    margin: 0;
+    padding-top: 5px;
+    padding-right: 10px;
+    color: dimgray;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+/*#endregion */
+/* #region main */
+.main {
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    height: 196px;
+    width: 296px;
+    margin: 5px;
+}
+
+.main-top {
+    border-bottom: 1px solid silver;
+    margin: 5px;
+    font-size: 13px;
+    font-weight: 200;
+    color: dimgray;
+    text-transform: uppercase;
+    line-height: 20px;
+    letter-spacing: -0.5px;
+
+}
+/* #endregion */
+/* #region match */
+.match {
+    display: block;
+}
+/* #endregion */
+/* #region match-top */
+.match-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+
+.match-poland {
+    display: block;
+    margin-left: 5px;
+    width: 30%;
+}
+
+.match-time {
+    width: 30%;
+}
+
+.match-austria {
+    margin-right: 10px;
+    width: 30%;
+}
+
+.country {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 10px;
+}
+
+.match-time-day {
+    text-transform: uppercase;
+    color: dimgray;
+    text-align: center;
+    margin: 5px auto;
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+.match-time-time {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    text-align: center;
+}
+/* #endregion */
+/* #region match-bottom */
+.match-bottom {
+    display: flex;
+    justify-content: space-around;
+   }
+
+.match-bottom-chusla1,
+.match-bottom-chusla2, 
+.match-bottom-chusla3 {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin: 8px;
+    width: 30%;
+}
+
+.match-bottom-chusla2 {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.chusla-one {
+    margin: 10px auto 1px auto;
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+}
+
+.chusla-two {
+    margin: 0 auto 10px auto;
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+}
+/* #endregion */
+/* #region picture */
+.picture {
+    height: 40px;
+    width: 40%;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-left: 25px;
+    margin-top: 10px;
+}
+/* #endregion */
