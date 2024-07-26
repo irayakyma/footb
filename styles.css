@@ -1,8 +1,14 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 /* #region body */
 body {
     width: 100%;
     background-color: whitesmoke;
     font-family: sans-serif;
+    padding-top: 8px;
 }
 /*#endregion */
 /* #region header */
@@ -18,19 +24,21 @@ body {
     margin: 5px;    
 }
 
-.header__football {
-    margin-top: 0;
-    font-weight: bold;
-    padding-left: 5px;
+.header__picture {
+    height: 15px;
+    margin: 0 5px;
 }
+.header__football {
+    font-weight: bold;
+}
+
 .header__right {
     display: flex;
+    padding-top: 5px;
 }
 
 .header__right-text {
-    margin: 0;
-    padding-top: 5px;
-    padding-right: 10px;
+    padding-right: 5px;
     color: dimgray;
 }
 
@@ -46,13 +54,13 @@ a:link {
     background-color: white;
     height: 196px;
     width: 296px;
-    margin: 5px;
+    margin: 8px;
 }
 
 .main-top {
     border-bottom: 1px solid silver;
-    margin: 5px;
-    font-size: 13px;
+    padding: 4px 5px;
+    font-size: 12px;
     font-weight: 200;
     color: dimgray;
     text-transform: uppercase;
@@ -69,7 +77,7 @@ a:link {
 /* #region match-top */
 .match-top {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 10px auto;
 }
 
@@ -92,14 +100,13 @@ a:link {
     text-align: center;
     font-weight: 300;
     font-size: 14px;
-    margin: 10px;
+    padding-bottom: 8px;
 }
 
 .match-time-day {
     text-transform: uppercase;
     color: dimgray;
     text-align: center;
-    margin: 5px auto;
     font-size: 9px;
     letter-spacing: 2px;
 }
@@ -107,7 +114,7 @@ a:link {
 .match-time-time {
     font-size: 18px;
     font-weight: bold;
-    margin-top: 0;
+    margin-top: 5px;
     text-align: center;
 }
 /* #endregion */
@@ -115,14 +122,16 @@ a:link {
 .match-bottom {
     display: flex;
     justify-content: space-around;
-   }
+   padding: 0 5px;
+   
+}
 
 .match-bottom-chusla1,
 .match-bottom-chusla2, 
 .match-bottom-chusla3 {
     background-color: whitesmoke;
     border-radius: 8px;
-    margin: 8px;
+   
     width: 30%;
 }
 
@@ -148,12 +157,10 @@ a:link {
 /* #region picture */
 .picture {
     height: 40px;
-    width: 40%;
-    background-color: white;
+    margin: 10px 20px;
+    background-color: transparent;
     background-size: cover;
     background-position: center;
     object-fit: cover;
-    margin-left: 25px;
-    margin-top: 10px;
 }
 /* #endregion */
