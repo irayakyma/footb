@@ -8,7 +8,6 @@ body {
     width: 100%;
     background-color: whitesmoke;
     font-family: sans-serif;
-  
 }
 /*#endregion */
 /* #region header */
@@ -48,14 +47,15 @@ a:link {
 /*#endregion */
 /* #region main */
 .main {
-    display: block;
+    display: flex;
+}
+.section-one {
     border-radius: 10px;
     background-color: white;
     height: 196px;
     width: 296px;
     margin: 0 8px;
 }
-
 .section-title {
     border-bottom: 1px solid silver;
     padding: 4px 8px;
@@ -67,7 +67,6 @@ a:link {
     letter-spacing: -0.5px;
 }
 /* #endregion */
-
 /* #region section-one-top */
 .section-one-top {
     display: flex;
@@ -94,7 +93,6 @@ a:link {
     text-align: left;
     font-weight: 300;
     font-size: 14px;
-    
 }
 
 .section-one-top__column-two-day {
@@ -153,5 +151,61 @@ a:link {
     background-size: cover;
     background-position: center;
     object-fit: cover;
+}
+/* #endregion */
+/* #region section-two-top */
+.section-two {
+    border-radius: 10px;
+    background-color: white;
+    height: 196px;
+    width: 296px;
+}
+
+.section-two-card {
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows: repeat(2, 2fr 1fr);
+}
+
+.section-two-top {
+    padding: 8px 10px;
+    margin: 10px 20px;
+}
+
+.section-two-top__day{
+    margin: 10px auto 4px;
+    text-transform: uppercase;
+    color: dimgray;
+    text-align: center;
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+.section-two-top__time {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+/* #endregion */
+/* #region section-two-bottom */
+.section-two-bottom {
+    background-color: whitesmoke;
+    border-radius: 8px;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.section-two-bottom__one {
+    margin: 10px auto 1px;
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+}
+.section-two-bottom__two {
+    margin: 0 auto 10px;
+    text-align: center;
+    color: gray;
+    font-size: 10px;
+    
 }
 /* #endregion */
