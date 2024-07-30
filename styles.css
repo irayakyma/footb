@@ -49,6 +49,7 @@ a:link {
 .main {
     display: flex;
 }
+
 .section-one {
     border-radius: 10px;
     background-color: white;
@@ -56,6 +57,7 @@ a:link {
     width: 296px;
     margin: 0 8px;
 }
+
 .section-title {
     border-bottom: 1px solid silver;
     padding: 4px 8px;
@@ -201,11 +203,11 @@ a:link {
     color: blue;
     font-size: 15px;
 }
+
 .section-two-bottom__two {
     margin: 0 auto 10px;
     text-align: center;
     color: gray;
     font-size: 10px;
-    
 }
 /* #endregion */
