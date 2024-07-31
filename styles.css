@@ -170,7 +170,7 @@ a:link {
 .section-two-card {
     display: grid;
     grid-template-columns: repeat(3, 32%);
-    grid-template-rows: repeat(2, 2fr 1fr);
+    grid-template-rows: repeat(1, 2fr 1fr);
 }
 
 .section-two-top {
