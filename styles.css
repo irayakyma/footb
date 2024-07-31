@@ -33,9 +33,13 @@ body {
 
 .header-link {
     display: flex;
+    position: fixed;
+    left: 400px;
 }
 
 .header-link__text {
+    position: fixed;
+    left: 270px;
     margin-right: 5px;
     color: dimgray;
 }
@@ -54,7 +58,7 @@ a:link {
     border-radius: 10px;
     background-color: white;
     height: 196px;
-    width: 296px;
+    min-width: 296px;
     margin: 0 8px;
 }
 
@@ -160,7 +164,7 @@ a:link {
     border-radius: 10px;
     background-color: white;
     height: 196px;
-    width: 296px;
+    min-width: 296px;
 }
 
 .section-two-card {
