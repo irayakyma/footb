@@ -12,7 +12,8 @@ body {
 /*#endregion */
 /* #region header */
 .header {
-    display: flex;
+    display: inline-flex;
+    gap: 180px;
     justify-content: space-between;
     height: 20px;
     margin: 8px;
@@ -33,13 +34,9 @@ body {
 
 .header-link {
     display: flex;
-    position: fixed;
-    left: 400px;
 }
 
 .header-link__text {
-    position: fixed;
-    left: 270px;
     margin-right: 5px;
     color: dimgray;
 }
