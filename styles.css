@@ -158,7 +158,7 @@ a:link {
 }
 
 .card-footer-item {
-    flex: 1;
+ 
     align-items: center;
     justify-content: center;
     color: blue;
@@ -166,7 +166,7 @@ a:link {
 }
 
 .card-footer-description {
-    flex: 1;
+ 
     font-size: 8px;
     color: gray;
     font-size: 12px;
