@@ -21,6 +21,7 @@ body {
 .header-wrapper {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 8px 8px 0;
 }
 
@@ -28,6 +29,7 @@ body {
     display: flex;
     gap: 4px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .header-title-icon{
@@ -41,6 +43,9 @@ body {
 .header-link {
     display: flex;
     gap: 4px;
+    position: fixed;
+    top: 8px;
+    right: 8px;
 }
 
 .header-link-text {
@@ -57,12 +62,10 @@ a:link {
 .cards-wrapper {
     display: flex;
     gap: 8px;
+    overflow-x: visible;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     border-radius: 10px;
     background-color: white;
     height: 196px;
@@ -87,6 +90,8 @@ a:link {
     display: flex;
     justify-content: space-around;
     padding: 8px;
+    gap: 8px;
+    padding-bottom: 8px;
 }
 
 .card-team {
@@ -95,8 +100,14 @@ a:link {
     align-items: center;
     gap: 8px;
     flex: 1;
+    padding: 4px;
 }
 
+.card-team-name {
+    flex: 1;
+    padding: 4px;
+    font-size: 16px;
+}
 .card-team-logo {
     width: 40px;
     height: 40px;
@@ -120,7 +131,7 @@ a:link {
     text-transform: uppercase;
     color: dimgray;
     font-size: 8px;
-    letter-spacing: 2px;
+    letter-spacing: 1.5px;
 }
 
 .card-team-time {
@@ -128,12 +139,12 @@ a:link {
     font-weight: bold;
 }
 /* #endregion */
-/* #region .card-footer */
+/* #region card-footer */
 .card-footer {
     display: flex;
     gap: 8px;
     justify-content: space-between;
-    padding: 0 12px 8px;
+    padding: 8px;
 }
 
 .card-footer-wrapper {
@@ -141,7 +152,7 @@ a:link {
     flex-direction: column;
     background-color: whitesmoke;
     border-radius: 8px;
-    padding: 0 8px 8px;
+    padding: 0 8px 12px;
     align-items: center;
     flex: 1;
 }
@@ -156,10 +167,10 @@ a:link {
 
 .card-footer-description {
     flex: 1;
+    font-size: 8px;
     color: gray;
     font-size: 12px;
-    justify-content: center;
-    padding: 0 8px;
+    justify-content: center;  
 }
 /* #endregion */
 
