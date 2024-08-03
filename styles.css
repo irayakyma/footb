@@ -15,21 +15,21 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    padding: 8px;
 }
 /* #endregion */
 /* #region header-wrapper */
 .header-wrapper {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 8px 8px 0;
+    justify-content: space-between;
+    padding: 0 8px;
 }
 
 .header-title {
     display: flex;
     gap: 4px;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header-title-icon{
@@ -43,6 +43,7 @@ body {
 .header-link {
     display: flex;
     gap: 4px;
+    align-items: center;
     position: fixed;
     top: 8px;
     right: 8px;
@@ -51,6 +52,7 @@ body {
 .header-link-text {
     display: flex;
     color: dimgray;
+    font-size: 16px;
 }
 
 a:link {
@@ -66,10 +68,11 @@ a:link {
 }
 
 .card {
-    border-radius: 10px;
+    border-radius: 16px;
     background-color: white;
     height: 196px;
     min-width: 296px;
+    gap: 8px;
 }
 
 .card-header {
@@ -89,8 +92,9 @@ a:link {
 .card-main {
     display: flex;
     justify-content: space-around;
-    padding: 8px;
+    padding: 4px;
     gap: 8px;
+    padding-bottom: 8px;
   
 }
 
@@ -99,13 +103,12 @@ a:link {
     flex-direction: column;
     align-items: center;
     gap: 8px;
+    padding: 8px;
     flex: 1;
-    padding: 4px;
 }
 
 .card-team-name {
-    padding: 4px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .card-team-logo {
@@ -120,9 +123,9 @@ a:link {
 }
 
 .card-team-data-wrapper {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    flex: 1;
     gap: 4px;
     align-items: center;
 }
@@ -130,12 +133,12 @@ a:link {
 .card-team-date {
     text-transform: uppercase;
     color: dimgray;
-    font-size: 8px;
+    font-size: 10px;
     letter-spacing: 1.5px;
 }
 
 .card-team-time {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
 }
 /* #endregion */
@@ -148,27 +151,31 @@ a:link {
 }
 
 .card-footer-wrapper {
+    flex: 1;
     display: flex;
     flex-direction: column;
     background-color: whitesmoke;
     border-radius: 8px;
-    padding: 0 8px 8px;
+    padding: 8px;
     align-items: center;
-    flex: 1;
+    justify-content: space-between;
 }
 
 .card-footer-item {
+    height: 24px;
+    display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     color: blue;
-    padding: 8px 8px 0;
+   
 }
 
 .card-footer-description {
     font-size: 8px;
     color: gray;
     font-size: 12px;
-    justify-content: center;  
+    align-items: center;
 }
 /* #endregion */
 
