@@ -8,6 +8,7 @@ body {
     width: 100%;
     background-color: whitesmoke;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 /*#endregion */
 /* #region wrapper */
@@ -24,6 +25,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 0 8px;
+    overflow-x: hidden;
 }
 
 .header-title {
@@ -44,9 +46,6 @@ body {
     display: flex;
     gap: 4px;
     align-items: center;
-    position: fixed;
-    top: 8px;
-    right: 8px;
 }
 
 .header-link-text {
@@ -64,7 +63,7 @@ a:link {
 .cards-wrapper {
     display: flex;
     gap: 8px;
-    overflow-x: visible;
+    overflow-x: auto;
 }
 
 .card {
@@ -93,9 +92,7 @@ a:link {
     display: flex;
     justify-content: space-around;
     padding: 4px 0 12px;
-    gap: 8px;
-   
-  
+    gap: 8px; 
 }
 
 .card-team {
@@ -167,8 +164,7 @@ a:link {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: blue;
-   
+    color: blue;  
 }
 
 .card-footer-description {
